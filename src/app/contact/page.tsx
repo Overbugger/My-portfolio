@@ -3,10 +3,10 @@ import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Mail } from "lucide-react";
+// import { useToast } from "@/components/ui/use-toast";
 
-
- 
 const contactPage = () => {
+    // const { toast } = useToast();
   return (
     // PROJECT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
@@ -19,7 +19,7 @@ const contactPage = () => {
         <div className="h-auto w-full flex justify-center items-center">
           <FramerWrapper y={0} scale={0.8}>
 
-        <ContactForm/>
+        <ContactForm />
           </FramerWrapper>
         </div>
         <p className=" font-poppins text-lg w-full text-primary max-sm:text-base"></p>

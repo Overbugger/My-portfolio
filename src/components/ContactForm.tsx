@@ -1,3 +1,5 @@
+"use client";
+
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
@@ -11,17 +13,38 @@ import {
 } from "@/components/ui/card";
 import { Button } from "./ui/button";
 import { SendEmail } from "./SendEmail";
-import { useToast } from "@/components/ui/use-toast";
 
+import { useToast } from "@/components/ui/use-toast";
+import { useState } from "react";
+import { redirect } from "next/navigation";
 
 const ContactForm = () => {
-    // const { toast } = useToast();
+  const { toast } = useToast();
+
+  const [isLoading, setLoading] = useState(false);
+
   return (
     <Card>
       <form
+        id="contact-form"
+       
         action={async (FormData) => {
-          "use server";
-          await SendEmail(FormData);
+         setLoading(true);
+          const response = await SendEmail(FormData);
+          if (response) {
+            setLoading(false);
+          }
+          if (response.success) {
+            toast({
+              description: "Your message has been sent.",
+            });
+            redirect("/");
+          } else {
+            toast({
+              description:
+                "Your message wasn't sent due to an error. Please try again.",
+            });
+          }
         }}
       >
         <CardHeader>
@@ -30,7 +53,7 @@ const ContactForm = () => {
             Once form is submit you will be redirect to home page.
           </CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="flex flex-col gap-2">
           <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
             <Label htmlFor="name">Name</Label>
             <Input
@@ -61,10 +84,11 @@ const ContactForm = () => {
         </CardContent>
         <CardFooter>
           <Button
+            className="w-full flex gap-1"
             type="submit"
-            className="w-full"
+            disabled={isLoading}
           >
-            Submit
+            {!isLoading ? "Submit" : "Processing..."}
           </Button>
         </CardFooter>
       </form>

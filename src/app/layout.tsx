@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import { siteConfig } from "./page";
+import { Toaster } from "@/components/ui/toaster";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: "400",
@@ -96,6 +97,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </main>
+        <Toaster />
       </body>
     </html>
   );
