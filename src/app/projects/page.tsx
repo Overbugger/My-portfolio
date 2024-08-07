@@ -11,14 +11,14 @@ const projectsPage = () => {
       title: "Squazzle",
       description:
         "Squazzle is an app that offers the easiest way to find the property of your choice ",
-      tags: ["Nextjs", "TailwindCss", "Typescript", "ExpressJS"],
+      tags: ["Nextjs", "Typescript", "ExpressJS"],
       link: "https://squazzle.vercel.app/",
     },
     {
       title: "Techcon",
       description:
         "Techcon is a web application where users can discover the ideal technician services tailored to your requirements ",
-      tags: ["NextJS", "TailwindCss", "Javascript", "Expressjs"],
+      tags: ["NextJS", "Javascript", "Expressjs"],
       link: "https://techcon.com.ng/",
     },
 
