@@ -8,68 +8,40 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "FriendZ - A social media Platform",
+      title: "Squazzle",
       description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+        "Squazzle is an app that offers the easiest way to find the property of your choice ",
+      tags: ["Nextjs", "TailwindCss", "Typescript", "ExpressJS"],
+      link: "https://squazzle.vercel.app/",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Techcon",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        "Techcon is a web application where users can discover the ideal technician services tailored to your requirements ",
+      tags: ["NextJS", "TailwindCss", "Javascript", "Expressjs"],
+      link: "https://techcon.com.ng/",
+    },
+
+    {
+      title: "Hermes",
+      description:
+        "Hermes is an app where users can get trusted help to handle tasks and errands with speed ",
+      tags: ["Html", "JavaScript", "ExpressJS"],
+      link: "https://www.hermes.com.ng/",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "Student Portal",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "Student Portal is web application that integrates biometrics authentication. This application is still under construction",
+      tags: ["Nextjs", "Javascript", "Auth0"],
+      link: "https://student-portal-wheat.vercel.app/",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "Aircraft status",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
-      link: "https://mixcn-ui.vercel.app",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://devkryptokapital.netlify.app/",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "This application is used to keep track of life limited parts of aircraft and provide logging and documentation",
+      tags: ["HTML", "Javascript", "ExpressJS"],
+      link: "https://llp-status.vercel.app/",
     },
   ];
 
