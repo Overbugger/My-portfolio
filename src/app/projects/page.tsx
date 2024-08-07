@@ -43,6 +43,13 @@ const projectsPage = () => {
       tags: ["HTML", "Javascript", "ExpressJS"],
       link: "https://llp-status.vercel.app/",
     },
+    {
+      title: "Diety",
+      description:
+        "This application provides means for users with dietary conditions to discover delicious recipes for various dietary conditions.",
+      tags: ["HTML", "Javascript", "ExpressJS"],
+      link: "https://www.diety.com.ng/",
+    },
   ];
 
   return (
