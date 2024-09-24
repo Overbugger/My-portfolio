@@ -15,19 +15,18 @@ const projectsPage = () => {
       link: "https://squazzle.vercel.app/",
     },
     {
+      title: "Hermes",
+      description:
+        "Hermes is an app where users can get trusted help to handle tasks and errands with speed ",
+      tags: ["Html", "JavaScript", "ExpressJS"],
+      link: "https://www.hermes.vercel.app/",
+    },
+    {
       title: "Techcon",
       description:
         "Techcon is a web application where users can discover the ideal technician services tailored to your requirements ",
       tags: ["NextJS", "Javascript", "Expressjs"],
       link: "https://techcon.com.ng/",
-    },
-
-    {
-      title: "Hermes",
-      description:
-        "Hermes is an app where users can get trusted help to handle tasks and errands with speed ",
-      tags: ["Html", "JavaScript", "ExpressJS"],
-      link: "https://www.hermes.com.ng/",
     },
     {
       title: "Student Portal",
