@@ -1,19 +1,18 @@
-import logo from "../../public/HeroImage.png";
-import Image from "next/image"
+import heroImg from "../../public/me_and_car.png";
+import Image from "next/image";
 
-const HeroImage = ()  => {
-
-    return(
-        <>
-          <Image
-          src={logo}
-          alt="logo"
-          loading="eager"
-          priority
-          height={1000}
-          width={1000}
-        />
-        </>
-    )
-}
-export default HeroImage
+const HeroImage = () => {
+  return (
+    <>
+      <Image
+        src={heroImg}
+        alt="logo"
+        loading="eager"
+        priority
+        height={1000}
+        width={1000}
+      />
+    </>
+  );
+};
+export default HeroImage;

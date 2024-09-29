@@ -11,29 +11,36 @@ const projectsPage = () => {
       title: "Squazzle",
       description:
         "Squazzle is an app that offers the easiest way to find the property of your choice ",
-      tags: ["Nextjs", "Typescript", "ExpressJS"],
+      tags: ["NextJS", "Typescript", "ExpressJS"],
       link: "https://squazzle.vercel.app/",
     },
     {
       title: "Hermes",
       description:
         "Hermes is an app where users can get trusted help to handle tasks and errands with speed ",
-      tags: ["Html", "JavaScript", "ExpressJS"],
+      tags: ["HTML", "JavaScript", "ExpressJS"],
       link: "https://www.hermes.vercel.app/",
     },
     {
       title: "Techcon",
       description:
         "Techcon is a web application where users can discover the ideal technician services tailored to your requirements ",
-      tags: ["NextJS", "Javascript", "Expressjs"],
+      tags: ["NextJS", "Javascript", "ExpressJS"],
       link: "https://techcon.com.ng/",
     },
     {
-      title: "Student Portal",
+      title: "Fine Card",
       description:
-        "Student Portal is web application that integrates biometrics authentication. This application is still under construction",
-      tags: ["Nextjs", "Javascript", "Auth0"],
-      link: "https://student-portal-wheat.vercel.app/",
+        "Fine Card helps users personalize their payment card with images of their choice - loved ones, cherished memories or fun moments.",
+      tags: ["NextJS", "Typescript", "Shadcn UI"],
+      link: "https://finecard.vercel.app/",
+    },
+    {
+      title: "Diety",
+      description:
+        "Diety provides means for users with dietary conditions to discover delicious recipes for various dietary conditions.",
+      tags: ["HTML", "Javascript", "ExpressJS"],
+      link: "https://www.diety.com.ng/",
     },
     {
       title: "Aircraft status",
@@ -41,13 +48,6 @@ const projectsPage = () => {
         "This application is used to keep track of life limited parts of aircraft and provide logging and documentation",
       tags: ["HTML", "Javascript", "ExpressJS"],
       link: "https://llp-status.vercel.app/",
-    },
-    {
-      title: "Diety",
-      description:
-        "This application provides means for users with dietary conditions to discover delicious recipes for various dietary conditions.",
-      tags: ["HTML", "Javascript", "ExpressJS"],
-      link: "https://www.diety.com.ng/",
     },
   ];
 

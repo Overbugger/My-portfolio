@@ -37,20 +37,17 @@ const page = () => {
         About me
       </Badge>
       <div className="flex flex-col gap-3 mb-4">
-        <Heading>Frontend Web Developer.</Heading>
+        <Heading>Software Developer.</Heading>
 
         <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a passionate frontend developer with a strong understanding of
-            backend development, dedicated to creating seamless and interactive
-            web experiences. With expertise in HTML, CSS, JavaScript, and
-            frameworks like React and NextJS, I build responsive and accessible
-            user interfaces. My backend skills in Node.js and database
-            management enable me to integrate frontend interfaces with backend
-            systems effectively, ensuring optimized data flow and functionality.
-            My goal is to deliver top-notch web experiences that exceed user
-            expectations by leveraging both frontend finesse and backend
-            proficiency.
+            I’m a passionate software developer with expertise in both web
+            development and mobile app development. With a focus on building
+            responsive, user-friendly applications, I enjoy transforming ideas
+            into functional, efficient digital solutions. Whether it’s creating
+            dynamic websites or crafting intuitive mobile experiences, I’m
+            dedicated to delivering high-quality results that solve real-world
+            problems.
           </p>
         </FramerWrapper>
       </div>
