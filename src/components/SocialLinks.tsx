@@ -20,16 +20,20 @@ const SocialLinks = () => {
   return (
     <>
       {links.map((itm, indx) => {
-        const timing = 0.55 + indx * 0.125
-        
+        const timing = 0.55 + indx * 0.125;
+
         return (
           <FramerWrapper key={indx} delay={timing} y={50}>
-
-          <Link  target="blank"
-            href={itm.link}
-            className={cn(buttonVariants({ variant: "outline", size: "icon" }))}
-            >{itm.icon}</Link>
-            </FramerWrapper>
+            <Link
+              target="blank"
+              href={itm.link}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "icon" })
+              )}
+            >
+              {itm.icon}
+            </Link>
+          </FramerWrapper>
         );
       })}
     </>

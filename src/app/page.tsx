@@ -21,7 +21,7 @@ export default function Home() {
         x={-100}
       >
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-3">
+        <div className="h-fit w-full p-4 flex items-center justify-center gap-3">
           <SocialLinks />
         </div>
         {/* <DownLoadResumeBtn/> */}
