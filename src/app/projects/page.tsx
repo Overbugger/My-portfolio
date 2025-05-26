@@ -21,12 +21,12 @@ const projectsPage = () => {
       tags: ["HTML", "JavaScript", "ExpressJS"],
       link: "https://hermes-ng.vercel.app/",
     },
-    {
-      title: "Techcon",
+     {
+      title: "Owasp visualizer",
       description:
-        "Techcon is a web application where users can discover the ideal technician services tailored to your requirements ",
-      tags: ["NextJS", "Javascript", "ExpressJS"],
-      link: "https://techcon.com.ng/",
+        "This app provides a comprehensive visual analysis of potential OWASP Top 10 vulnerabilities.",
+      tags: ["NextJS", "typescript", "ExpressJS", "Docker"],
+      link: "https://owasp10-visualiser.vercel.app/",
     },
     {
       title: "Fine Card",
