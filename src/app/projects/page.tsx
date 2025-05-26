@@ -19,7 +19,7 @@ const projectsPage = () => {
       description:
         "Hermes is an app where users can get trusted help to handle tasks and errands with speed ",
       tags: ["HTML", "JavaScript", "ExpressJS"],
-      link: "https://www.hermes.vercel.app/",
+      link: "https://hermes-ng.vercel.app/",
     },
     {
       title: "Techcon",
