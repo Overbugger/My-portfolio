@@ -7,10 +7,7 @@ import FramerWrapper from "@/components/FramerWrapper";
 
 export const siteConfig = {
   name: "Okoro Samuel Chika",
-  description: "I am a Passionate Web Developer",
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
-};
+  description: "I am a Passionate Web Developer"};
 export default function Home() {
   return (
     <>
