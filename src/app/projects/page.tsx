@@ -25,7 +25,7 @@ const projectsPage = () => {
       title: "Owasp visualizer",
       description:
         "This app provides a comprehensive visual analysis of potential OWASP Top 10 vulnerabilities.",
-      tags: ["NextJS", "typescript", "ExpressJS", "Docker"],
+      tags: ["NextJS", "Typescript", "Docker"],
       link: "https://owasp10-visualiser.vercel.app/",
     },
     {
