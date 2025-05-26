@@ -40,7 +40,7 @@ const projectsPage = () => {
       description:
         "Diety provides means for users with dietary conditions to discover delicious recipes for various dietary conditions.",
       tags: ["HTML", "Javascript", "ExpressJS"],
-      link: "https://www.diety.com.ng/",
+      link: "https://diety.vercel.app/",
     },
     {
       title: "Aircraft status",
